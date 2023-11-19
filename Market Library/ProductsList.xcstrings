@@ -1,0 +1,132 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Bounty with coconut pulp in milk chocolate" : {
+      "comment" : "Product name",
+      "extractionState" : "manual",
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batonik Bounty z miazgą kokosową w mlecznej czekoladzie"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Батончик Bounty з'якоттю кокоса в молочному шоколаді"
+          }
+        }
+      }
+    },
+    "Lion White Rock" : {
+      "comment" : "Product name",
+      "extractionState" : "manual",
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batonik Lion Biała Skała"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Батончик Lion White Rock"
+          }
+        }
+      }
+    },
+    "Mars with nougat and caramel in milk chocolate" : {
+      "comment" : "Product name",
+      "extractionState" : "manual",
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batonik Mars z nugatem i karmelem w mlecznej czekoladzie"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Батончик Mars з нугою і карамеллю в молочному шоколаді"
+          }
+        }
+      }
+    },
+    "Nuts Strawberry" : {
+      "comment" : "Product name",
+      "extractionState" : "manual",
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batonik Nuts Truskawkowe"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Батончик Nuts Strawberry"
+          }
+        }
+      }
+    },
+    "Snickers Suoer peanuts in milk chocolate" : {
+      "comment" : "Product name",
+      "extractionState" : "manual",
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batonik Snickers Super z orzeszkami ziemnymi w mlecznej czekoladzie"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Батончик Snickers Super з арахісом у молочному шоколаді"
+          }
+        }
+      }
+    },
+    "Snickers with peanuts in milk chocolate" : {
+      "comment" : "Product name",
+      "extractionState" : "manual",
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batonik Snickers z orzeszkami ziemnymi w mlecznej czekoladzie"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Батончик Snickers з арахісом у молочному шоколаді"
+          }
+        }
+      }
+    },
+    "Twix with cookies and caramel in milk chocolate" : {
+      "comment" : "Product name",
+      "extractionState" : "manual",
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batonik Twix z ciasteczkami i karmelem w mlecznej czekoladzie"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Батончик Twix з печивом і карамеллю в молочному шоколаді"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

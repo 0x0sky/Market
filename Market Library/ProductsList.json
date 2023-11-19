@@ -1,0 +1,72 @@
+[
+    {
+        "id": "snikers-super-with-peanuts-in-milk-chocolate",
+        "name": "Snickers with peanuts in milk chocolate",
+        "categoryId": 527,
+        "price": 17.1,
+        "discontPrice": null,
+        "amount": -1,
+        "imageUrl": "snickers-with-peanuts-in-milk-chocolate",
+        "creation_date": 1698586170
+    },
+    {
+        "id": "snikers-with-peanuts-in-milk-chocolate",
+        "name": "Snickers with peanuts in milk chocolate",
+        "categoryId": 527,
+        "price": 33.8,
+        "discontPrice": null,
+        "amount": -1,
+        "imageUrl": "snickers-super-with-peanuts-in-milk-chocolate",
+        "creation_date": 1698586190
+    },
+    {
+        "id": "mars-with-nougat-and-caramel",
+        "name": "Mars with nougat and caramel in milk chocolate",
+        "categoryId": 527,
+        "price": 16.5,
+        "discontPrice": 15.5,
+        "amount": -1,
+        "imageUrl": "mars-with-nougat-and-caramel-in-milk-chocolate",
+        "creation_date": 1698586110
+    },
+    {
+        "id": "bounty",
+        "name": "Bounty with coconut pulp in milk chocolate",
+        "categoryId": 527,
+        "price": 16.4,
+        "discontPrice": 16.09,
+        "amount": -1,
+        "imageUrl": "bounty-with-coconut-pulp-in-milk-chocolate",
+        "creation_date": 1698586080
+    },
+    {
+        "id": "twix",
+        "name": "Twix bar with cookies and caramel in milk chocolate",
+        "categoryId": 527,
+        "price": 17.1,
+        "discontPrice": 16,
+        "amount": -1,
+        "imageUrl": "twix-with-cookies-and-caramel-in-milk-chocolate",
+        "creation_date": 1698586020
+    },
+    {
+        "id": "lion-white",
+        "name": "Lion White Rock",
+        "categoryId": 527,
+        "price": 15.5,
+        "discontPrice": 15.03,
+        "amount": -1,
+        "imageUrl": "lion-white-rock",
+        "creation_date": 1698585960
+    },
+    {
+        "id": "nuts-strawberry",
+        "name": "Nuts Strawberry",
+        "categoryId": 527,
+        "price": 23,
+        "discontPrice": 21.6,
+        "amount": -1,
+        "imageUrl": "nuts-strawberry",
+        "creation_date": 1698585900
+    }
+]

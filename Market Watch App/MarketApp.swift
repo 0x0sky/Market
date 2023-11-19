@@ -1,5 +1,5 @@
 //
-//  MarketApp.swift
+//  ContentView.swift
 //  Market Watch App
 //
 //  Created by Oleksander Lohozinskyi on 18.11.2023.
