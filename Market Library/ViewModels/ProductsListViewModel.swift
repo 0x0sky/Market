@@ -63,7 +63,7 @@ public struct ProductsListViewModel {
         
         public var image: Image {
             if let imageUrl {
-                return Image(imageUrl, bundle: Bundle(identifier: "com.loghozinsky.free.Market.library"))
+                return Image(imageUrl, bundle: Bundle(identifier: "com.loghozinsky.market.library"))
             }
             
             return Image(systemName: "photo.fill")

@@ -6,7 +6,7 @@ public struct ProductsListRemoteDataSource {
         let sortedProductList = productsList.sorted(by: { lhs, rhs in
             lhs.creation_date < rhs.creation_date
         })
-        try await Task.sleep(nanoseconds: 3_000_000_000) // 3 seconds
+        try await Task.sleep(nanoseconds: 13_000_000_000) // 3 seconds
         return sortedProductList
     }
 }

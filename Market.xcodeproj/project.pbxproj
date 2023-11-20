@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D1EFB982B0A466200423596 /* ProductsList.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D212CBD2B08711800B63CC2 /* ProductsList.xcassets */; };
+		4D1EFB992B0A468F00423596 /* ProductsList.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 4D212CBF2B08711800B63CC2 /* ProductsList.xcstrings */; };
 		4D212C6E2B086E3E00B63CC2 /* MarketApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D212C6D2B086E3E00B63CC2 /* MarketApp.swift */; };
 		4D212C7B2B086E3F00B63CC2 /* Market Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4D212C7A2B086E3F00B63CC2 /* Market Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4D212C802B086E3F00B63CC2 /* MarketApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D212C7F2B086E3F00B63CC2 /* MarketApp.swift */; };
@@ -26,9 +28,7 @@
 		4D212CD82B08711900B63CC2 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D212CBA2B08711800B63CC2 /* Product.swift */; };
 		4D212CD92B08711900B63CC2 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D212CBB2B08711800B63CC2 /* Cart.swift */; };
 		4D212CDA2B08711900B63CC2 /* ProductsList.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D212CBC2B08711800B63CC2 /* ProductsList.json */; };
-		4D212CDB2B08711900B63CC2 /* ProductsList.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D212CBD2B08711800B63CC2 /* ProductsList.xcassets */; };
 		4D212CDC2B08711900B63CC2 /* Loadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D212CBE2B08711800B63CC2 /* Loadable.swift */; };
-		4D212CDD2B08711900B63CC2 /* ProductsList.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 4D212CBF2B08711800B63CC2 /* ProductsList.xcstrings */; };
 		4D212CDE2B08711900B63CC2 /* ProductsListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D212CC12B08711900B63CC2 /* ProductsListRepository.swift */; };
 		4D212CDF2B08711900B63CC2 /* CartRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D212CC22B08711900B63CC2 /* CartRepository.swift */; };
 		4D212CE02B08711900B63CC2 /* CartDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D212CC42B08711900B63CC2 /* CartDependency.swift */; };
@@ -486,9 +486,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D1EFB982B0A466200423596 /* ProductsList.xcassets in Resources */,
 				4D212CDA2B08711900B63CC2 /* ProductsList.json in Resources */,
-				4D212CDB2B08711900B63CC2 /* ProductsList.xcassets in Resources */,
-				4D212CDD2B08711900B63CC2 /* ProductsList.xcstrings in Resources */,
+				4D1EFB992B0A468F00423596 /* ProductsList.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -686,13 +686,13 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Market;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = loghozinsky.Market;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.loghozinsky.market;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.loghozinsky.free.Market.watchAppKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.loghozinsky.market.watchAppKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
@@ -718,13 +718,13 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Market;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = loghozinsky.Market;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.loghozinsky.market;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.loghozinsky.free.Market.watchAppKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.loghozinsky.market.watchAppKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
@@ -762,7 +762,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.loghozinsky.free.Market;
+				PRODUCT_BUNDLE_IDENTIFIER = com.loghozinsky.market;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -797,7 +797,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.loghozinsky.free.Market;
+				PRODUCT_BUNDLE_IDENTIFIER = com.loghozinsky.market;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -837,7 +837,7 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = com.loghozinsky.free.Market.library;
+				PRODUCT_BUNDLE_IDENTIFIER = com.loghozinsky.market.library;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
@@ -885,7 +885,7 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = com.loghozinsky.free.Market.library;
+				PRODUCT_BUNDLE_IDENTIFIER = com.loghozinsky.market.library;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
