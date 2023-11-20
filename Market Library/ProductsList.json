@@ -68,5 +68,15 @@
         "amount": -1,
         "imageUrl": "nuts-strawberry",
         "creation_date": 1698585900
+    },
+    {
+        "id": "casademont-spanish-ham-sliced",
+        "name": "Casademont Spanish ham, sliced",
+        "categoryId": 322,
+        "price": 119,
+        "discontPrice": 58.9,
+        "amount": -1,
+        "imageUrl": "casademont-spanish-ham-sliced",
+        "creation_date": 1700493509
     }
 ]

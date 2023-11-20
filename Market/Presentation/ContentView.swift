@@ -14,8 +14,8 @@ struct ContentView: View {
         ZStack {
             ProductsListView()
                 .environmentObject(ProductsListDependenciesContainer())
-//            CartView()
-//                .environmentObject(CartDependenciesContainer())
+            CartView()
+                .environmentObject(CartDependenciesContainer())
         }
     }
 }

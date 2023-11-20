@@ -10,6 +10,18 @@ import SwiftUI
 
 public struct ProductsListViewModel {
     public struct Model: Sendable, Identifiable, Hashable {
+        public static var empty: Self {
+            ProductsListViewModel.Model(id: "CANNOT_BE_USED",
+                                        name: "PLACEHOLDER",
+                                        caption: nil,
+                                        category: "PLACEHOLDER",
+                                        price: 0.0,
+                                        discontPrice: nil,
+                                        amount: nil,
+                                        imageUrl: nil,
+                                        creationDate: .now)
+        }
+        
         public static func == (lhs: ProductsListViewModel.Model, rhs: ProductsListViewModel.Model) -> Bool {
             lhs.id == rhs.id
             && lhs.name == rhs.name
