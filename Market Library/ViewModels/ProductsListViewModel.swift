@@ -127,19 +127,7 @@ public struct ProductsListViewModel {
               creationDate: Date(timeIntervalSince1970: entity.creation_date))
     }
     
-    private func model(from entity: Product) -> Model {
-        Model(id: entity.id,
-              name: entity.name,
-              caption: entity.caption,
-              category: "",//product.categoryId.description,
-              price: entity.price,
-              discontPrice: entity.discontPrice,
-              amount: entity.amount,
-              imageUrl: entity.imageUrl,
-              creationDate: Date(timeIntervalSince1970: entity.creation_date))
-    }
-    
-    private func entity(from model: Model) -> Product {
+    public static func entity(from model: Model) -> Product {
         Product(id: model.id,
                 name: model.name,
                 caption: model.caption,
@@ -153,7 +141,7 @@ public struct ProductsListViewModel {
     
     public func fetch(from fetchingType: FetchingType, in modelContext: ModelContext) async -> [Model] {
         do {
-            return try await _productsUseCase.fetch(from: fetchingType, in: modelContext).map { model(from: $0) }
+            return try await _productsUseCase.fetch(from: fetchingType, in: modelContext).map { Self.model(from: $0) }
         } catch {
             print(error.localizedDescription)
             return []
@@ -163,7 +151,7 @@ public struct ProductsListViewModel {
     public func add(_ model: Model, in modelContext: ModelContext) {
         Task.detached(priority: .userInitiated) {
             do {
-                return try await _productsUseCase.add(product: entity(from: model), in: modelContext)
+                return try await _productsUseCase.add(product: Self.entity(from: model), in: modelContext)
             } catch {
                 fatalError(error.localizedDescription)
             }
@@ -174,7 +162,7 @@ public struct ProductsListViewModel {
     public func delete(_ model: Model, in modelContext: ModelContext) {
         Task.detached(priority: .userInitiated) {
             do {
-                return try await _productsUseCase.delete(product: entity(from: model), in: modelContext)
+                return try await _productsUseCase.delete(product: Self.entity(from: model), in: modelContext)
             } catch {
                 fatalError()
             }

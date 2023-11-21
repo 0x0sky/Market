@@ -21,5 +21,9 @@ public struct CartRepository {
     func delete(product: Product, in modelContext: ModelContext) async throws -> Cart {
         try await dataSource.delete(product: product, in: modelContext)
     }
+    
+    func save(_ cart: Cart, in modelContext: ModelContext) async throws -> Cart {
+        try await dataSource.save(cart, in: modelContext)
+    }
 }
 

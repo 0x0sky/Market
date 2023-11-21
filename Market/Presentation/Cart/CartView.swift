@@ -15,7 +15,12 @@ struct CartView: View {
     @State var cart: CartViewModel.Model = .empty
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text($cart.id)
+            .task {
+                await cart = viewModel.fetch(in: modelContext)
+                dump(cart)
+//                await viewModel.save(cart, in: modelContext)
+            }
     }
 }
 

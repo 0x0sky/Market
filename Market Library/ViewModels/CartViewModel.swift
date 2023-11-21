@@ -43,7 +43,7 @@ public struct CartViewModel {
     private var _cartUseCase: CartUseCase
     
     public init(useCase: CartUseCase) {
-        self._cartUseCase = useCase
+        _cartUseCase = useCase
 
     }
     
@@ -54,6 +54,15 @@ public struct CartViewModel {
     public func fetch(in modelContext: ModelContext) async -> Model {
         do {
             return try await model(from: _cartUseCase.fetch(in: modelContext))
+        } catch {
+            fatalError()
+        }
+    }
+    
+    public func save(_ cart: Model, in modelContext: ModelContext) async {
+        let cart = Cart(id: cart.id, products: cart.products.map { ProductsListViewModel.entity(from: $0) })
+        do {
+            try await _cartUseCase.save(cart, in: modelContext)
         } catch {
             fatalError()
         }
