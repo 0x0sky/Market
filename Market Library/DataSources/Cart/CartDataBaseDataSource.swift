@@ -31,4 +31,9 @@ struct CartDataBaseDataSource {
         modelContext.insert(cart)
         return cart
     }
+    
+    func save(_ cart: Cart, in modelContext: ModelContext) async throws -> Cart {
+        modelContext.insert(cart)
+        return cart
+    }
 }

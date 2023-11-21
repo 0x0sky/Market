@@ -13,4 +13,8 @@ public struct CartUseCase {
     public func fetch(in modelContext: ModelContext) async throws -> Cart {
         try await repository.fetch(in: modelContext)
     }
+    
+    public func save(_ cart: Cart, in modelContext: ModelContext) async throws -> Cart {
+        try await repository.save(cart, in: modelContext)
+    }
 }
